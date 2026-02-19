@@ -1,37 +1,37 @@
 # SWT – Smart Watch Table (Smart Desk Clock on STM32F103)
+### SWT is a desktop smart clock based on the STM32F103 microcontroller,featuring an LX-12864-B5 graphic LCD. It displays time, date, temperature, and includes a settings menu.
 
-## ENG
+**Date: 19.02.2026**
 
-Date: 14/08/2025
+The current schematic version is — **[sh_v4b2](/sh/sh_v4b2/sh_v4b2.pdf)**.
 
-The current hardware version is **[sh_v4b1](https://github.com/Ch-Tima/SWT_DeskClock/blob/test_sh_v4b/sh_v4b1.pdf)**.
-Testing is in progress in the branch [test_sh_v4b](https://github.com/Ch-Tima/SWT_DeskClock/tree/test_sh_v4b).
+`sh_v4b2` - is a fully "_**working desk**_" clock schematic, although it still has some minor issues.
 
-Several issues and errors have been identified, and testing is ongoing. Development of the first firmware version is also in progress.
+| Components | Information   |  Quantity
+|------------|---------------|----------------------|
+| **MCU**    | [STM32F103C8T6](mc/STM32F103X4.PDF)  | x1
+| **CHRG**   | [LTH7R](pw/LTH7R-1.PDF)              | x1
+| **LDO**    | [SC662K](pw/_662K.PDF)               | x1
+| **Quartz** | [32.768](scomp/XKZEL89CII_32768K.PDF)| x1
+| **NTC_T**  | [C394021](scomp/C394021.pdf)         | x1
+| **Diodes** | SS14                                 | x2
 
-For all up-to-date information and schematics, see the PDF:
-📄 [sh_v4b1.pdf](https://github.com/Ch-Tima/SWT_DeskClock/blob/test_sh_v4b/sh_v4b1.pdf).
+#### For detailed component quantities, see [here](/sh/sh_v4b2/BOM_SWT_shv4b2.csv)
 
-If you have suggestions, ideas, or would like to help in any way — your contribution is very **[welcome!](https://github.com/Ch-Tima/SWT_DeskClock/issues)**
+## Firmware
+Interested in building and testing it?
 
-## RUS
+A basic working firmware is available here: **[SWT_firmware](https://github.com/Ch-Tima/SWT_firmware)**
 
-Умные настольные часы на STM32F103
+## Want to help?
+If you have ideas, suggestions, or simply want to contribute — I would be glad to receive any help
 
-Дата: 14.08.2025
+## Language
+- English (current)
+- [Русская версия](README_RU.md)
 
-Что сейчас происходит
+## Developer
 
-Актуальная версия схемы — **[sh_v4b1](https://github.com/Ch-Tima/SWT_DeskClock/blob/test_sh_v4b/sh_v4b1.pdf)**.
-
-Сейчас тестирую всё это добро в ветке [test_sh_v4b](https://github.com/Ch-Tima/SWT_DeskClock/tree/test_sh_v4b).
-
-Нашёл несколько косяков и багов — проверяю, как их исправить.
-Параллельно пишу первую прошивку.
-
-Полезные ссылки
-Вся свежая информация и документация тут:
-📄 [sh_v4b1.pdf](https://github.com/Ch-Tima/SWT_DeskClock/blob/test_sh_v4b/sh_v4b1.pdf).
-
-Хочешь помочь?
-Если есть идеи, советы или просто желание поучаствовать — буду рад любой помощи!
+- **Name**: Tymofii
+- **GitHub**: [Ch-Tima](https://github.com/Ch-Tima)
+- **Ko-fi**: [Ch-Tima](https://ko-fi.com/chtima)
