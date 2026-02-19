@@ -1,5 +1,4 @@
 # SWT – Smart Watch Table (Smart Desk Clock on STM32F103)
-
 ### SWT is a desktop smart clock based on the STM32F103 microcontroller,featuring an LX-12864-B5 graphic LCD. It displays time, date, temperature, and includes a settings menu.
 
 **Date: 19.02.2026**
